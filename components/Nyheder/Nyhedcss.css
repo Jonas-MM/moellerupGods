@@ -1,0 +1,40 @@
+h4{
+    /* color: blue; */
+}
+div.Nyhed.container{
+    margin-top: 5vh;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.alleNyhedder img{
+    width: 100%;
+}
+.alleNyhedder div h4:first-child{
+    font-size: 1em;
+}
+
+div.Nyhed.container h4{
+    font-weight: 400;
+    text-align: left;
+}
+
+div.Nyhed.container p, div.Nyhed.container p{
+    color: grey;
+}
+
+.alleNyhedder{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  
+  }
+  .alleNyhedder div:first-child{
+    display: block;
+    width: 100%;
+    
+  }
+  .alleNyhedder div{
+    padding: 0 2%;
+    width:calc(100%/3);
+  }
+

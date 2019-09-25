@@ -1,0 +1,21 @@
+.alleAktiviteter{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alleAktiviteter img{
+    width: 100%;
+}
+
+/* .container .alleAktiviteter div:{
+    margin: 0 1%;
+} */
+
+.alleAktiviteter div {
+    padding: 0 2%;
+    width: calc(100%/3);
+}
+
+.hr{
+    margin: 8vh 0;
+}
